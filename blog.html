@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexor -</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/stylesheet/stylesheet.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/4633904374.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navbar flex justify-between item-center">
+          <div class="branding">
+            <h2><a href="#" class="branding-logo">Flexor</a></h2>
+          </div>
+          <label for="input-hamburger" class="hamburger"></label>
+          <input type="checkbox" id="input-hamburger" hidden />
+          <ul class="menu flex">
+            <li><a href="#" class="menu-link">Home</a></li>
+            <li><a href="#" class="menu-link">About</a></li>
+            <li><a href="#" class="menu-link">Services</a></li>
+            <li><a href="#" class="menu-link">Portfolio</a></li>
+            <li><a href="#" class="menu-link">Team</a></li>
+            <li><a href="#" class="menu-link">Pricing</a></li>
+            <li><a href="#" class="menu-link">Blog</a></li>
+            <li class="has-dropdown">
+              <a href="#" class="menu-link"
+                >Dropdown
+                <span class="arrow"></span>
+              </a>
+              <ul class="submenu">
+                <li><a href="#" class="menu-link">Dropdown 1</a></li>
+                <li class="has-dropdown">
+                  <a href="#" class="menu-link"
+                    >Dropdown 2
+                    <span class="arrow"></span>
+                  </a>
+                  <ul class="submenu">
+                    <li>
+                      <a href="#" class="menu-link">Deep Dropdown 1</a>
+                    </li>
+                    <li>
+                      <a href="#" class="menu-link">Deep Dropdown 2</a>
+                    </li>
+                    <li>
+                      <a href="#" class="menu-link">Deep Dropdown 3</a>
+                    </li>
+                    <li>
+                      <a href="#" class="menu-link">Deep Dropdown 4</a>
+                    </li>
+                    <li>
+                      <a href="#" class="menu-link">Deep Dropdown 5</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#" class="menu-link">Dropdown 3</a></li>
+                <li><a href="#" class="menu-link">Dropdown 4</a></li>
+              </ul>
+            </li>
+            <li><a href="#" class="menu-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="blog-heading">
+        <div class="container">
+          <a href="index.html">Home</a> / <a href="blog.html">Blog</a>
+          <h2>Blog</h2>
+        </div>
+      </div>
+      <section class="blogs padding">
+        <div class="container flex justify-between item-start">
+          <div class="blogs-wrapper flex-65">
+            <article class="blog-item">
+              <figure>
+                <img src="./assets/media/blog-1.jpg" alt="" class="width-full" />
+              </figure>
+              <h3>
+                Dolorum optio tempore voluptas dignissimos cumque fuga qui
+                quibusdam quia
+              </h3>
+              <i class="fas fa-user"></i> <span>John Doe </span>
+              <i class="far fa-clock"></i> <span>Jan 1, 2020 </span>
+              <i class="far fa-comment-dots"></i> <span>12 Comments</span>
+            </article>
+          </div>
+          <aside class="sidebar flex-30">
+            <h3>Search</h3>
+            <div class="search flex justify-between ">
+              <input type="text" />
+              <i class="fas fa-search"></i>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="flexor-info">
+        <div class="container flex justify-between item-start padding wrap">
+          <div class="flexor flex-20 m-flex-48 sm-flex-100">
+            <h3>Flexor</h3>
+            <address>
+              A108 Adam Street <br />
+              New York, NY 535022 <br />
+              United States
+            </address>
+            <p><strong>Phone</strong>: +1 5589 55488 55</p>
+            <p><strong>Email</strong>: info@example.com</p>
+          </div>
+          <div class="useful-links flex-15 m-flex-48 sm-flex-100">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fas fa-chevron-right"></i><a href="">Home</a></li>
+              <li>
+                <i class="fas fa-chevron-right"></i><a href="">About us</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i><a href="">Services</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i
+                ><a href="">Terms of service</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i>
+                <a href="">Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="useful-links flex-15 m-flex-48 sm-flex-100">
+            <h4>Our Services</h4>
+            <ul>
+              <li>
+                <i class="fas fa-chevron-right"></i><a href="">Web Design</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i
+                ><a href="">Web Development</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i
+                ><a href="">Product Management</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i><a href="">Marketing</a>
+              </li>
+              <li>
+                <i class="fas fa-chevron-right"></i
+                ><a href="">Graphic Design</a>
+              </li>
+            </ul>
+          </div>
+          <div class="news-letter flex-35 m-flex-48 sm-flex-100">
+            <h4>Join Our Newsletter</h4>
+            <p>
+              Tamen quem nulla quae legam multos aute sint culpa legam noster
+              magna
+            </p>
+            <div class="news-letter-btn-wrapper">
+              <input
+                type="text"
+                name="news-letter-input"
+                class="news-letter-input"
+              />
+              <button class="btn news-letter-btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div
+        class="
+          container
+          footer-socials
+          flex
+          justify-between
+          item-center
+          m-column m-text-center
+        "
+      >
+        <div>
+          <p>
+            <small
+              >&copy; Copyright <strong>Flexor.</strong> All Rights Reserved
+            </small>
+          </p>
+          <p class="bootstrap-made">
+            Designed by
+            <span>BootstrapMade</span>
+          </p>
+        </div>
+        <ul class="social-icon-wrapper flex justify-between">
+          <li class="social-icon-menu flex center">
+            <i class="fab fa-twitter"></i>
+          </li>
+          <li class="social-icon-menu flex center">
+            <i class="fab fa-facebook-f"></i>
+          </li>
+          <li class="social-icon-menu flex center">
+            <i class="fab fa-instagram"></i>
+          </li>
+          <li class="social-icon-menu flex center">
+            <i class="fab fa-skype"></i>
+          </li>
+          <li class="social-icon-menu flex center">
+            <i class="fab fa-linkedin-in"></i>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      hamburger.addEventListener("click", function () {
+        this.classList.toggle("close");
+      });
+    </script>
+  </body>
+</html>
